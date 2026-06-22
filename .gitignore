@@ -1,0 +1,38 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+server/data/*.db-journal
+.env
+.env.*
+!.env.example
+
+# Private coursework/report artifacts
+docs/
+output/
+scripts/build_report_docx.py
+提交说明.md
+screenshots/13_后端接口验证.png
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
